@@ -25,18 +25,16 @@ def get_bb_slot(url):
     print()
     printTime("Do this on chromeTab:")
     printTime("1) Please LOGIN using OTP using mobile or emailID in newly opened chrome window")
-    printTime("2) Choose correct delivery location on web page.")
-    printTime("3) Wait on the basket's page and keep it open")  
+    printTime("2) Choose correct delivery location on web page.") 
     print()
     printTime("IMPORTANT: Keep browser tab open and this command window running")
-    printTime("Wish you happy and safe stay #GO_CORONA")
 
     time.sleep(5) #added wait to load above msgs
     chromedriver_autoinstaller.install() 
 
     driver = webdriver.Chrome()
     driver.get(url)
-    #print("Please login using OTP and then wait for a while.")
+    print("Please login using OTP and then wait for a while.")
     time.sleep(60)
 
 
@@ -68,7 +66,7 @@ def get_bb_slot(url):
           #  print("If this message pops up multiple times, please find the error and create a PR!")
           #  print (e)
             printTime("Please stay on basket's page.")
-            printTime("If this message pops up multiple times, please find the error and create a PR!")
+
             print(e)
             pass
         #print("No Slots found. Will retry again.")
