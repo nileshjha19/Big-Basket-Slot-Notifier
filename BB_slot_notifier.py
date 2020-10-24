@@ -83,7 +83,7 @@ def notify(title, text):
         os.system("""
               osascript -e 'display notification "{}" with title "{}"'
               """.format(text, title))
-    elif os.name == 'Linux'
+    elif os.name == 'Linux':
         os.system('spd-say "Slots for delivery available!"')
 
 def main():
