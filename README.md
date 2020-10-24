@@ -4,7 +4,7 @@
 This script uses python 3.x.
 1) Clone the repo 
 2) Run `pip install -r requirements`
-3) Run the script with `python3 BB_slot.py`
+3) Run the script with `python BB_slot_notifier.py`
 
 
 ## Flow of the application
